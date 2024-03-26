@@ -10,6 +10,8 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 player = pygame.Rect((300, 250, 50, 50))
 
 run = True
+
+# finished game!
 while run:
 
     screen.fill((0, 0, 0))
